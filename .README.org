@@ -1,0 +1,9 @@
+* Install dependencies
+#+begin_src shell
+  - wm: i3-gaps i3lock
+  - status bar: polybar
+  - application launcher: dmenu
+  - compositor: picom
+  - dunst: notify daemon
+  - terminal: alacritty tmux
+#+end_src
