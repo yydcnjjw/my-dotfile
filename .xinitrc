@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# lang
+LANG=zh_CN.UTF-8
+
 # proxy
 export proxy_address=192.168.1.8
 export {http,https}_proxy=http://${proxy_address}:8118
