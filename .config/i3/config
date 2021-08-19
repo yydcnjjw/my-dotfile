@@ -201,6 +201,7 @@ focus_follows_mouse no
 #######################################################################
 exec i3-config-wizard
 
+exec --no-startup-id gnome-keyring-daemon -d -r
 exec --no-startup-id picom -b
 exec --no-startup-id fcitx5 -d -r
 exec --no-startup-id dunst
