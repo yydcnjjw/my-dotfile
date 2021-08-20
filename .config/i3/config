@@ -206,7 +206,5 @@ exec --no-startup-id picom -b
 exec --no-startup-id fcitx5 -d -r
 exec --no-startup-id dunst
 
-# swap ctrl:caps
-exec --no-startup-id setxkbmap -option "ctrl:swapcaps"
-
-
+# FIXME: The screen size change will reset keymap
+exec --no-startup-id $HOME/.config/i3/monitor.sh

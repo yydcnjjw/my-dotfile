@@ -4,6 +4,14 @@
   - status bar: polybar
   - application launcher: dmenu
   - compositor: picom
-  - dunst: notify daemon
+  - notify daemon: dunst
   - terminal: alacritty tmux
+  - input method: fcitx5 fcitx5-rime fcitx5-mozc fcitx5-qt fcitx5-gtk
 #+end_src
+
+
+* Windows compatible
+** keymap
+- powertoys:
+  - Alt_R <-> Super_L
+  - Caps <-> Ctrl_L
